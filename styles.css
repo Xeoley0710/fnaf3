@@ -1,0 +1,248 @@
+/* Fuente personalizada opcional */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Creepster', cursive, sans-serif;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    background-image: url('https://wallpapers.com/images/hd/five-nights-at-freddys-4-wallpaper-o4m0buhcq2880ixl.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid crimson;
+    box-shadow: 0 0 20px crimson;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: crimson;
+    text-transform: uppercase;
+    animation: flicker 2s infinite;
+}
+
+/* NAVEGACIÓN */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    color: #ff4444;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #ff4444;
+    background-color: rgba(255, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: crimson;
+    color: white;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+    padding: 30px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fnaf1-section {
+    position: relative;
+    min-height: 300px; /* Asegura espacio para el contenido */
+}
+
+.corner-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 350px;
+    border: 2px solid crimson;
+    border-radius: 8px;
+    box-shadow: 0 0 15px crimson;
+    transition: transform 0.3s;
+}
+
+.corner-image:hover {
+    transform: scale(1.05);
+}
+
+.fnaf2-section {
+    position: relative;
+    min-height: 450px;
+}
+
+.corner-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 350px; /* Puedes cambiar a 350px o más si quieres más grande */
+    border: 2px solid crimson;
+    border-radius: 8px;
+    box-shadow: 0 0 15px crimson;
+    transition: transform 0.3s;
+}
+
+.corner-image:hover {
+    transform: scale(1.05);
+}
+
+.fnaf3-section {
+    position: relative;
+    min-height: 450px;
+}
+
+/* Reutilizamos .corner-image */
+.corner-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 300px; /* Ajusta según lo que desees */
+    border: 2px solid crimson;
+    border-radius: 8px;
+    box-shadow: 0 0 15px crimson;
+    transition: transform 0.3s;
+}
+
+.corner-image:hover {
+    transform: scale(1.05);
+}
+
+.fnaf4-section {
+    position: relative;
+    min-height: 500px;
+}
+
+.corner-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 320px; /* Puedes aumentar o reducir este valor */
+    border: 2px solid crimson;
+    border-radius: 8px;
+    box-shadow: 0 0 15px crimson;
+    transition: transform 0.3s;
+}
+
+.corner-image:hover {
+    transform: scale(1.05);
+}
+
+.fnafsl-section {
+    position: relative;
+    min-height: 500px;
+}
+
+.corner-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 320px;
+    border: 2px solid crimson;
+    border-radius: 8px;
+    box-shadow: 0 0 15px crimson;
+    transition: transform 0.3s;
+}
+
+.corner-image:hover {
+    transform: scale(1.05);
+}
+
+.fnafsb-section {
+    position: relative;
+    min-height: 500px;
+}
+
+.corner-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 320px; /* Puedes ajustar este valor si quieres que sea más grande o más pequeño */
+    border: 2px solid crimson;
+    border-radius: 8px;
+    box-shadow: 0 0 15px crimson;
+    transition: transform 0.3s;
+}
+
+.corner-image:hover {
+    transform: scale(1.05);
+}
+
+section {
+    margin-bottom: 60px;
+    padding: 20px;
+    border: 2px solid crimson;
+    box-shadow: 0 0 15px crimson;
+    background-color: rgba(15, 0, 0, 0.5);
+    border-radius: 10px;
+
+h2 {
+    color: #ff3333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #ff6666;
+    margin-top: 15px;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 200px;
+    margin: 10px;
+    border: 2px solid crimson;
+    box-shadow: 0 0 10px red;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* PIE DE PÁGINA */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #aaa;
+    font-size: 0.9rem;
+    border-top: 1px solid crimson;
+}
+
+/* EFECTO FLICKER */
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+    }
+    20%, 24%, 55% {
+        opacity: 0.3;
+    }
+}
